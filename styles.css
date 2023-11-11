@@ -1,3 +1,17 @@
+/* codigo para cabecera de pagina web */
+.cabecera{
+    background-color: #00695C;
+}
+.titulo{
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+
+
+
+/* codigo de pie de pagina web */
 .color_pie{
     background-color: #F2F3F4;
 }
