@@ -97,3 +97,10 @@ body {
     background-color: #00695C;
 }
 
+/*boton de registro o iniciar sesion*/
+.boton_login{
+    background: #00695C;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
