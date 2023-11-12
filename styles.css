@@ -95,3 +95,8 @@ body {
 .contenido_pie{
     text-align: center;
 }
+
+/* cambiar color al background a la parte del cuerpo de la pagina #00695C */
+.cart-container{
+    background-color: #00695C;
+}
