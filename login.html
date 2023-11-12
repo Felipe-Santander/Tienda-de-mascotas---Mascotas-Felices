@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iniciar Sesión o Crear Cuenta</title>
+</head>
+<body>
+
+  <h2>Iniciar Sesión o Crear Cuenta</h2>
+
+  <form id="loginForm">
+    <label for="correo">Correo electrónico:</label>
+    <input type="email" id="correo" name="correo" required>
+
+    <label for="contrasena">Contraseña:</label>
+    <input type="password" id="contrasena" name="contrasena" required>
+
+    <button type="button" onclick="iniciarSesion()">Iniciar Sesión</button>
+    <button type="button" onclick="mostrarRegistro()">Crear Cuenta</button>
+  </form>
+
+  <div id="registroForm" style="display: none;">
+    <h3>Crear cuenta</h3>
+    <form>
+      <label for="nombreCompleto">Nombre completo:</label>
+      <input type="text" id="nombreCompleto" name="nombreCompleto" required>
+
+      <label for="apellidoCompleto">Apellido completo:</label>
+      <input type="text" id="apellidoCompleto" name="apellidoCompleto" required>
+
+      <label for="correoRegistro">Correo electrónico:</label>
+      <input type="email" id="correoRegistro" name="correoRegistro" required>
+
+      <label for="mascota">Nombre de tu mascota:</label>
+      <input type="text" id="mascota" name="mascota" required>
+
+      <label for="lugarResidencia">Lugar de residencia:</label>
+      <input type="text" id="lugarResidencia" name="lugarResidencia" required>
+
+      <button type="button" onclick="crearCuenta()">Crear Cuenta</button>
+      <button type="button" onclick="mostrarLogin()">Volver al Inicio de Sesión</button>
+    </form>
+  </div>
+
+  <script>
+    function iniciarSesion() {
+      // Lógica para iniciar sesión
+      alert("Iniciar Sesión");
+    }
+
+    function crearCuenta() {
+      // Lógica para crear cuenta
+      alert("Crear Cuenta");
+    }
+
+    function mostrarRegistro() {
+      document.getElementById('loginForm').style.display = 'none';
+      document.getElementById('registroForm').style.display = 'block';
+    }
+
+    function mostrarLogin() {
+      document.getElementById('loginForm').style.display = 'block';
+      document.getElementById('registroForm').style.display = 'none';
+    }
+  </script>
+
+</body>
+</html>
