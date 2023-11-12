@@ -47,7 +47,7 @@ body {
 }
 
 .cart {
-    border: 1px solid #ddd;
+    border: 1px solid #000000;
     padding: 20px;
     border-radius: 5px;
 }
@@ -63,9 +63,10 @@ body {
     margin-bottom: 10px;
 }
 
+/*color del boton de realizar compra*/
 #checkout-btn {
-    background-color: #27ae60;
-    color: white;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
     border: none;
     padding: 10px 20px;
     cursor: pointer;
@@ -100,3 +101,4 @@ body {
 .cart-container{
     background-color: #00695C;
 }
+
